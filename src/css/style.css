@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    display: flex;
+    background-color: #CFCFCF;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.hero img{
+    position: absolute;
+    left: 28.4%;
+}
+
+.hero .faq {
+    background-color: #FCFCFC;
+    width: 655px;
+    height: 347px;
+    border-radius:21px
+}
+
+.hero .faq .perguntas {
+    width: 390px;
+    margin: 60px 37px 60px 228px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero .faq .perguntas .titulo {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero .faq .perguntas .pergunta1{
+    margin: 15px 0 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero .faq .perguntas .pergunta2{
+    margin: 15px 0 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero .faq .perguntas .pergunta3{
+    margin: 15px 0 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero .faq .perguntas .resposta1 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hero .faq .perguntas .resposta2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hero .faq .perguntas .resposta3 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hero .faq .perguntas .divisoria {
+    opacity: 0.4;
+}
+
+.hero .faq .perguntas .seta1{
+    position: absolute;
+    right: 35%;
+    margin-top: 21px;
+}
+
+.hero .faq .perguntas .seta2{
+    position: absolute;
+    right: 35%;
+    margin-top: 21px;
+}
+
+.hero .faq .perguntas .seta3{
+    position: absolute;
+    right: 35%;
+    margin-top: 21px;
+}
+
+.hero .faq .perguntas .resposta1.esconder {
+    display: none;
+}
+
+.hero .faq .perguntas .resposta2.esconder {
+    display: none;
+}
+
+.hero .faq .perguntas .resposta3.esconder {
+    display: none;
+}
+
+.seta-aberta {
+    position: relative;
+    right: 35%;
+    margin-top: 21px;
+    content: url(../images/seta\ aberta.png);
+}
